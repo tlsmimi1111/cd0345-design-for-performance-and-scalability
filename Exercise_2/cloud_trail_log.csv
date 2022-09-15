@@ -1,0 +1,7 @@
+timestamp,message
+1663260088716,"START RequestId: 0447b493-90d1-4fd6-99c3-516b1a2d4bc3 Version: $LATEST
+"
+1663260088720,"END RequestId: 0447b493-90d1-4fd6-99c3-516b1a2d4bc3
+"
+1663260088720,"REPORT RequestId: 0447b493-90d1-4fd6-99c3-516b1a2d4bc3	Duration: 0.99 ms	Billed Duration: 1 ms	Memory Size: 128 MB	Max Memory Used: 36 MB	Init Duration: 106.33 ms	
+"
