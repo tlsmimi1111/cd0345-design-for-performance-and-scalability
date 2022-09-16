@@ -1,20 +1,20 @@
-Group hierarchy	Region	Description	Service	Upfront	Monthly	First 12 months total	Currency	Configuration summary
-My Estimate	US East (N. Virginia)		Network Address Translation (NAT) Gateway	0	100.35	1204.2	USD	Number of NAT Gateways (1)
-My Estimate	US East (N. Virginia)		Amazon CloudFront	0	2781.68	33380.16	USD	"Data transfer out to internet (30 TB per month), Data transfer out to origin (6 TB per month), Number of requests (HTTPS) (150 million per month)"
-My Estimate	US East (N. Virginia)		Amazon EC2	42468.48	48	43044.48	USD	"Operating system (Linux), Quantity (16), Pricing strategy (EC2 Instance Savings Plans 3 Year All Upfront), Storage amount (30 GB), Instance type (t4g.2xlarge)"
-My Estimate	US East (N. Virginia)		S3 Standard	0	411.53	4938.36	USD	S3 Standard storage (2000 GB per month)
-My Estimate	US East (N. Virginia)		S3 Standard - Infrequent Access	0	129	1548	USD	S3 Standard-IA storage (6000 GB per month)
-My Estimate	US East (N. Virginia)		S3 Glacier Instant Retrieval	0	59.8	717.6	USD	S3 Glacier Instant Retrieval storage (8000 GB per month)
-My Estimate	US East (N. Virginia)		Amazon RDS for Oracle reserved	0	"526,1"	17062.56	USD	"Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (2 TB), Number of RDS for Oracle instances (1), Instance type (db.m3.2xlarge), Utilization (On-Demand only) (70 %Utilized/Month), Deployment option (Multi-AZ), License (Bring your own license), Database edition (Enterprise), Pricing strategy (OnDemand), Additional backup storage (2 TB)"
-My Estimate	US East (N. Virginia)		Application Load Balancer	0	483.63	5803.56	USD	Number of Application Load Balancers (1)
-My Estimate	US East (N. Virginia)		Amazon CloudWatch	0	13.524	162.29	USD	"Number of Metrics (includes detailed and custom metrics) (35), GetMetricData: Number of metrics requested (600), GetMetricWidgetImage: Number of metrics requested (600), Number of other API requests (600), Number of Dashboards (1), Number of High Resolution Alarm Metrics (10)"
-			UpFornt cost for each month		1179.68			
-					5207.194			
-					"I reduce the total price by 
-- Choose reserved instances for RDS and EC2 for 3 years, all upfornt
-
-- Implement lifecycle policy for S3 to move data from S3 to S3-IA and S3-galicer
-"			
-								
-Acknowledgement								
-"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."								
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (N. Virginia),,Network Address Translation (NAT) Gateway,0,100.35,1204.2,USD,Number of NAT Gateways (1)
+My Estimate,US East (N. Virginia),,Amazon CloudFront,0,2781.68,33380.16,USD,"Data transfer out to internet (30 TB per month), Data transfer out to origin (6 TB per month), Number of requests (HTTPS) (150 million per month)"
+My Estimate,US East (N. Virginia),,Amazon EC2,42468.48,48,43044.48,USD,"Operating system (Linux), Quantity (16), Pricing strategy (EC2 Instance Savings Plans 3 Year All Upfront), Storage amount (30 GB), Instance type (t4g.2xlarge)"
+My Estimate,US East (N. Virginia),,S3 Standard,0,411.53,4938.36,USD,S3 Standard storage (2000 GB per month)
+My Estimate,US East (N. Virginia),,S3 Standard - Infrequent Access,0,129,1548,USD,S3 Standard-IA storage (6000 GB per month)
+My Estimate,US East (N. Virginia),,S3 Glacier Instant Retrieval,0,59.8,717.6,USD,S3 Glacier Instant Retrieval storage (8000 GB per month)
+My Estimate,US East (N. Virginia),,Amazon RDS for Oracle reserved,0,"526,1",17062.56,USD,"Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (2 TB), Number of RDS for Oracle instances (1), Instance type (db.m3.2xlarge), Utilization (On-Demand only) (70 %Utilized/Month), Deployment option (Multi-AZ), License (Bring your own license), Database edition (Enterprise), Pricing strategy (OnDemand), Additional backup storage (2 TB)"
+My Estimate,US East (N. Virginia),,Application Load Balancer,0,483.63,5803.56,USD,Number of Application Load Balancers (1)
+My Estimate,US East (N. Virginia),,Amazon CloudWatch,0,13.524,162.29,USD,"Number of Metrics (includes detailed and custom metrics) (35), GetMetricData: Number of metrics requested (600), GetMetricWidgetImage: Number of metrics requested (600), Number of other API requests (600), Number of Dashboards (1), Number of High Resolution Alarm Metrics (10)"
+,,,UpFornt cost for each month,,1179.68,,,
+,,,,,5207.194,,,
+,,,,,I reduce the total price by ,,,
+"- Choose reserved instances for RDS and EC2 for 3 years, all upfornt",,,,,,,,
+,,,,,,,,
+#NAME?,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+Acknowledgement,,,,,,,,
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",,,,,,,,
