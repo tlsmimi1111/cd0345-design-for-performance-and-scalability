@@ -1,0 +1,27 @@
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (N. Virginia),,Network Address Translation (NAT) Gateway,0,100.35,1204.2,USD,Number of NAT Gateways (1)
+My Estimate,US East (N. Virginia),,Data Transfer,0,0,0,USD,"DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month), Data transfer cost (0)"
+My Estimate,US East (N. Virginia),,Amazon CloudFront,0,2781.68,33380.16,USD,"Data transfer out to internet (30 TB per month), Data transfer out to origin (6 TB per month), Number of requests (HTTPS) (150 million per month)"
+My Estimate,US East (N. Virginia),,Amazon EC2,0,3383.81,40605.72,USD,"Operating system (Linux), Quantity (16), Pricing strategy (On-Demand Instances), Storage amount (30 GB), Instance type (a1.4xlarge)"
+My Estimate,US East (Ohio),,S3 Standard,0,2083.77,25005.24,USD,S3 Standard storage (18000 GB per month)
+My Estimate,US East (Ohio),,Data Transfer,0,0,0,USD,
+My Estimate,US East (N. Virginia),,Amazon RDS for Oracle,0,1421.88,17062.56,USD,"Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (2 TB), Number of RDS for Oracle instances (1), Instance type (db.m3.2xlarge), Utilization (On-Demand only) (70 %Utilized/Month), Deployment option (Multi-AZ), License (Bring your own license), Database edition (Enterprise), Pricing strategy (OnDemand), Additional backup storage (2 TB)"
+My Estimate,US East (N. Virginia),,Application Load Balancer,0,483.63,5803.56,USD,Number of Application Load Balancers (1)
+My Estimate,US East (Ohio),,Amazon EC2,0,4813.44,57761.28,USD,"Operating system (Linux), Quantity (16), Pricing strategy (On-Demand Instances), Storage amount (30 GB), Instance type (a1.4xlarge)"
+My Estimate,US East (Ohio),,Amazon RDS for Oracle,0,1493.23,17918.76,USD,"Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (2 TB), Number of RDS for Oracle instances (1), Instance type (db.m4.2xlarge), Utilization (On-Demand only) (100 %Utilized/Month), Deployment option (Multi-AZ), License (Bring your own license), Database edition (Enterprise), Pricing strategy (OnDemand), Additional backup storage (2 GB)"
+My Estimate,US East (Ohio),,Network Address Translation (NAT) Gateway,0,100.35,1204.2,USD,Number of NAT Gateways (1)
+My Estimate,US East (Ohio),,Data Transfer,0,0,0,USD,"DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month), Data transfer cost (0)"
+My Estimate,US East (Ohio),,Application Load Balancer,0,483.63,5803.56,USD,Number of Application Load Balancers (1)
+My Estimate,US East (Ohio),,Amazon CloudWatch,0,13.524,162.29,USD,"Number of Metrics (includes detailed and custom metrics) (35), GetMetricData: Number of metrics requested (600), GetMetricWidgetImage: Number of metrics requested (600), Number of other API requests (600), Number of Dashboards (1), Number of High Resolution Alarm Metrics (10)"
+My Estimate,US East (N. Virginia),,Amazon CloudWatch,0,13.524,162.29,USD,"Number of Metrics (includes detailed and custom metrics) (35), GetMetricData: Number of metrics requested (600), GetMetricWidgetImage: Number of metrics requested (600), Number of other API requests (600), Number of Dashboards (1), Number of High Resolution Alarm Metrics (10)"
+My Estimate,US East (N. Virginia),,S3 Standard,0,2083.77,25005.24,USD,S3 Standard storage (18000 GB per month)
+My Estimate,US East (N. Virginia),,Data Transfer,0,0,0,USD,"DT Inbound: Not selected (0 TB per month), DT Outbound: Amazon CloudFront (0 TB per month)"
+My Estimate,US East (N. Virginia),,Amazon Simple Queue Service (SQS),0,119.6,1435.2,USD,"Data transfer cost (0), Standard queue requests (300 million per month)"
+My Estimate,US East (Ohio),,Amazon Simple Queue Service (SQS),0,119.6,1435.2,USD,"Data transfer cost (0), Standard queue requests (300 million per month)"
+,,,,,19495.788,,,
+,,,,,"I basically duplicated the whole infrastructure to another region us-east-2 to provide redundancy
+I also increased the vCPUs of EC2 so that I can run multiple threads
+I also added simple queue services to de-couple application and web instances, so that application and web instances can scale, work independently",,,
+,,,,,,,,
+Acknowledgement,,,,,,,,
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",,,,,,,,
